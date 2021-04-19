@@ -1,9 +1,60 @@
-body {
-    width: 100%;
+/* ****************** */
+/* Etiquetas globales */
+/* ****************** */
+
+* {
     box-sizing: border-box;
-    background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
-/*  */
-/* asdfasdfasdf */
-/*  */
+html {
+    font-size: 62.5%;
+}
+
+/* ******************** */
+/* Etiquetas del header */
+/* ******************** */
+
+header {
+    margin: 5.5rem auto .5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    margin: 0 auto;
+}
+
+header span {
+    display: block;
+    color: transparent;
+    height: 3rem;
+    /* para que el h1 no se vea */
+    background-image: url('http://pngimg.com/uploads/wikipedia/wikipedia_PNG11.png');
+    /* las comillas (' ') para pergar la URL dentro son obligatorias | esta etiqueta trae una imagen de algun lado */
+    background-repeat: no-repeat;
+    /* para que la imagen no se repita si es muy chica o se expanda si es muy grande */
+    background-position: center;
+    /* para que se posicione en el centro del contenedor */
+    background-size: contain;
+    /* para que la imagen se adapte al tamaño del contenedor */
+    
+}
+
+header p {
+    margin: 0.5rem auto;
+    font-size: 1.5rem;   
+    font-weight: normal;
+    width: 12.8rem;
+    text-align: center;
+}
+
+/* ****************** */
+/* Etiquetas del main */
+/* ****************** */
+
+
+
+/* ******************** */
+/* Etiquetas del footer */
+/* ******************** */
