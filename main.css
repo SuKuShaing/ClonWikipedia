@@ -80,9 +80,9 @@ main .recuadro-de-idioma:hover {
     background-color: #eaecf0;
 }
 
-main .recuadro-de-idioma strong {
-    
-}
+/* main .recuadro-de-idioma strong {
+
+} */
 
 main .recuadro-de-idioma strong a {
     color: #36c;
