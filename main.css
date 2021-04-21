@@ -17,7 +17,7 @@ html {
 /* ******************** */
 
 header {
-    margin: 5.5rem auto .5rem;
+    margin: 5.8rem auto .5rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -65,6 +65,10 @@ main .idiomas {
     background-size: 20rem 18.3rem;
     /* para que la imagen se adapte al tamaño del contenedor */
     justify-items: center;
+    margin: 2rem auto 0rem;
+    width: 54.6rem;
+    position: relative;
+    /* para que funcione el absolute que tienen los id-idioma es necesario el relative, puesto que sino los absolute se basan en toda la pantalla */
 }
 
 main .recuadro-de-idioma {
@@ -73,6 +77,7 @@ main .recuadro-de-idioma {
     margin: 1rem auto;
     cursor: pointer;
     width: 15rem;
+    height: 4.5rem;
     padding: .3rem;
 }
 
@@ -80,16 +85,81 @@ main .recuadro-de-idioma:hover {
     background-color: #eaecf0;
 }
 
-/* main .recuadro-de-idioma strong {
+main .id-Español {
+    position: absolute;
+    /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
+    left: 14%;
+    top: 2%;
+}
 
-} */
+main .id-Ingles {
+    position: absolute;
+    left: 63%;
+    top: 2%;
+}
+
+main .id-Japones {
+    position: absolute;
+    /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
+    left: 6%;
+    top: 22%;
+}
+
+main .id-Deutsch {
+    position: absolute;
+    /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
+    left: 73%;
+    top: 22%;
+}
+
+main .id-Ruso {
+    position: absolute;
+    /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
+    left: 3%;
+    top: 42%;
+}
+
+main .id-Frances {
+    position: absolute;
+    /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
+    left: 75%;
+    top: 42%;
+}
+
+main .id-Italiano {
+    position: absolute;
+    /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
+    left: 6%;
+    top: 62%;
+}
+
+main .id-Chino {
+    position: absolute;
+    /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
+    left: 74%;
+    top: 62%;
+}
+
+main .id-Portugues {
+    position: absolute;
+    /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
+    left: 14%;
+    top: 82%;
+}
+
+main .id-Polski {
+    position: absolute;
+    /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
+    left: 64%;
+    top: 82%;
+}
 
 main .recuadro-de-idioma strong a {
     color: #36c;
     display: flex;
     justify-content: center;
     /* para centrar un elemento al medio horizontalmente */
-    margin: 0 auto;
+    margin: 0 auto .3rem;
     text-decoration: none;
 }
 
