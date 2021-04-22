@@ -1,6 +1,6 @@
-/* ****************** */
-/* Etiquetas globales */
-/* ****************** */
+/* **************************************** */
+/* ***********Etiquetas globales*********** */
+/* **************************************** */
 
 * {
     box-sizing: border-box;
@@ -12,9 +12,9 @@ html {
     font-size: 62.5%;
 }
 
-/* ******************** */
-/* Etiquetas del header */
-/* ******************** */
+/* ****************************************** */
+/* ***********Etiquetas del header*********** */
+/* ****************************************** */
 
 header {
     margin: 5.8rem auto .5rem;
@@ -49,9 +49,13 @@ header p {
     text-align: center;
 }
 
-/* ****************** */
-/* Etiquetas del main */
-/* ****************** */
+/* **************************************** */
+/* ***********Etiquetas del main*********** */
+/* **************************************** */
+
+/* *************** */
+/* Section idiomas */
+/* *************** */
 
 main .idiomas {
     display: grid;
@@ -60,7 +64,7 @@ main .idiomas {
     /* las comillas (' ') para pergar la URL dentro son obligatorias | esta etiqueta trae una imagen de algun lado */
     background-repeat: no-repeat;
     /* para que la imagen no se repita si es muy chica o se expanda si es muy grande */
-    background-position: center;
+    background-position: 47.5% 47%;
     /* para que se posicione en el centro del contenedor */
     background-size: 20rem 18.3rem;
     /* para que la imagen se adapte al tamaño del contenedor */
@@ -78,79 +82,83 @@ main .recuadro-de-idioma {
     cursor: pointer;
     width: 15rem;
     height: 4.5rem;
-    padding: .3rem;
+    /* padding: .3rem; */
 }
 
-main .recuadro-de-idioma:hover {
+main .otra {
+    width: 15rem;
+}
+
+main .otra:hover {
     background-color: #eaecf0;
 }
 
 main .id-Español {
     position: absolute;
     /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
-    left: 14%;
+    left: 11%;
     top: 2%;
 }
 
 main .id-Ingles {
     position: absolute;
-    left: 63%;
+    left: 59%;
     top: 2%;
 }
 
 main .id-Japones {
     position: absolute;
     /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
-    left: 6%;
+    left: 1%;
     top: 22%;
 }
 
 main .id-Deutsch {
     position: absolute;
     /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
-    left: 73%;
+    left: 69%;
     top: 22%;
 }
 
 main .id-Ruso {
     position: absolute;
     /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
-    left: 3%;
+    left: -1%;
     top: 42%;
 }
 
 main .id-Frances {
     position: absolute;
     /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
-    left: 75%;
+    left: 71%;
     top: 42%;
 }
 
 main .id-Italiano {
     position: absolute;
     /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
-    left: 6%;
+    left: 1%;
     top: 62%;
 }
 
 main .id-Chino {
     position: absolute;
     /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
-    left: 74%;
+    left: 69%;
     top: 62%;
 }
 
 main .id-Portugues {
     position: absolute;
     /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
-    left: 14%;
+    left: 11%;
     top: 82%;
 }
 
 main .id-Polski {
     position: absolute;
     /* Es necesario que en el contenedor exista un "Relative" para que este absolute se base en ese contenedor y no en toda la pantalla */
-    left: 64%;
+    left: 59%;
     top: 82%;
 }
 
@@ -173,6 +181,45 @@ main .recuadro-de-idioma p {
     text-align: center;
 }
 
-/* ******************** */
-/* Etiquetas del footer */
-/* ******************** */
+/* ************** */
+/* Section search */
+/* ************** */
+
+main .search {
+    width: 60rem;
+    margin: .4rem auto 1.95rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.4rem;
+}
+
+main .busqueda {
+    display: flex;
+    height: 4.4rem;
+    width: 50rem;
+    border: .1rem solid #a2a9b1;
+    align-items: center;
+}
+
+main .escritura {
+    display: flex;
+}
+
+main input {
+    /* border: none; */
+    width: 39.4rem;
+    flex-grow: 1;
+}
+
+main .lupa {
+    height: 4.2rem;
+    background-color: #36c;
+    width: 5.6rem;
+    height: 4.2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ****************************************** */
+/* ***********Etiquetas del footer*********** */
+/* ****************************************** */
