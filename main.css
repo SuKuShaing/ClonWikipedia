@@ -256,7 +256,7 @@ main .lupa {
     border: .1rem solid #36c;
     display: flex;
     justify-content: flex-end;
-
+    /* para dejar al final de manera horizontal     */
     background-image: url('https://www.pngkey.com/png/full/87-872187_lupa-search-icon-white-png.png');
     /* las comillas (' ') para pergar la URL dentro son obligatorias | esta etiqueta trae una imagen de algun lado */
     background-repeat: no-repeat;
